@@ -1,0 +1,32 @@
+{
+  "name": "node-puppeteer-jest-example",
+  "version": "1.0.0",
+  "description": "An example repository demonstrating how to set up the Carbonate Node SDK using Jest and Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carbonate-dev/node-puppeteer-jest-example.git"
+  },
+  "keywords": [
+    "ai",
+    "example",
+    "puppeteer",
+    "jest",
+    "end-to-end-testing"
+  ],
+  "author": "Carbonate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Carbonate-dev/node-puppeteer-jest-example/issues"
+  },
+  "homepage": "https://github.com/Carbonate-dev/node-puppeteer-jest-example#readme",
+  "devDependencies": {
+    "@carbonate/sdk": "^0.0.4",
+    "jest": "^29.6.1",
+    "jest-puppeteer": "^9.0.0",
+    "puppeteer": "^20.8.2"
+  }
+}
